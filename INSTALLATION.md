@@ -32,7 +32,7 @@ sudo yum install libxml2-devel libxslt-devel libcurl
 ```
 
 We recommend installing _nokogiri_ before the SiteDiff gem. If possible,
-avoid using `sudo` for `gem install`.
+avoid using `sudo` for `gem install`.  (if you don't typically use ruby/gem, simplest way to do is to run 'export GEM_HOME="$HOME/.gem"' prior to running gem commands.)
 
 ```bash
 gem install nokogiri --no-rdoc --no-ri -- --use-system-libraries=true —with-xml2-include=/usr/include/libxml2
